@@ -1,5 +1,5 @@
 import pyzx as zx 
-from graph_loader import load_graph
+from lib.graph_loader import load_graph
 import networkx as nx
 from f2linalg.f2linalg import Mat2
 import numpy as np
