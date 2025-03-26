@@ -1,5 +1,7 @@
+
 def sorted_keys_by_value(d):
         return [k for k, v in sorted(d.items(), key=lambda item: item[1], reverse=True)]
+
 def recurer(ws, scores, predictions):
     if len(ws) == 0:
         return True
@@ -18,7 +20,7 @@ def main():
         for index, element in enumerate(w):
             if element != 0:
                 scores[index] += 1
-    
+
     sorted_scores = sorted_keys_by_value(scores)
     predicted_edges = []
     while True:

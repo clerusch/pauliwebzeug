@@ -2,3 +2,4 @@ paulienv/
 pyzx/
 .vscode/
 f2linalg/
+__pycache__/
