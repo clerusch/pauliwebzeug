@@ -1,4 +1,12 @@
 We have pauliwebs, so what are steps we need?
-- Type out QEC code into stim.
-- Create a tanner graph of pauliwebs (isnt this shit though, they all share one edge after all??)
-- On a more macro level: Which predictions are *actually* equivalent? What does it mean for two errors to be equivalent? Does that matter? (maybe a theory of spider webs)
+- Brute force by going through all syndrome combos
+- Find a triggering single-edge error for each syndrome
+- Find the correction for it
+- dongles for firing edges, adapt get_detection_webs() for 
+- connecting arbitrary edges (for finding error propagation through circuit)
+- -> get a dictionary of corrections from syndromes
+- -> scale to arbitrary numbers of iterations of syndrome rounds
+- make func to create zx dist-presv rewrite graphs from stabilizers
+- think about decoding translation through dist-preserving rewrites
+- commuting of logical operations through encoding diagrams
+- 
