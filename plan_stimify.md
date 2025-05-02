@@ -1,0 +1,3 @@
+- I guess pyzx pre-work in keeping a dictionary of webs for detectors
+- I think we should have a look at simplified examples, so e.g. the circuit for just weight-4 normal steane
+- Question about this: Do the green edges at red measurements really not matter?

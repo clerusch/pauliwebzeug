@@ -66,14 +66,11 @@ def make_rg(oldg: zx.Graph) -> zx.Graph:
     """
     # As opposed to .copy(), .clone() preserves node naming
     g = oldg.clone()
-    # print(g.vertices())
     for node in g.vertices():
         nodecolor = g.ty[node]
         
         for neighbor in g.neighbors(node):
-            # print(node, neighbor)
             if g.ty[neighbor] == nodecolor:
-                # print("yes")
                 row = (g.row(node)+g.row(neighbor)) /2
                 qubit = (g.qubit(node)+g.qubit(neighbor)) /2
                 oldg.remove_edge((neighbor, node))

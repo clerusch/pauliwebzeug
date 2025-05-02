@@ -9,4 +9,4 @@ We have pauliwebs, so what are steps we need?
 - make func to create zx dist-presv rewrite graphs from stabilizers
 - think about decoding translation through dist-preserving rewrites
 - commuting of logical operations through encoding diagrams
-- 
+- Expecting threshold in region 0.1% to 1%
