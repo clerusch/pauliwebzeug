@@ -134,7 +134,8 @@ def weight_mod_2_decomp(g: Graph) -> Graph:
 
 def main():
     # Fix connections to neighbors
-    # So this kinda
+    # So this kinda works but gotta make it prettier with qubits
+    # and rows
     stabs = ["XXXXXXXX"]#XXXXXXXX"]#,"ZZZZII"]
     g = stab2graph(stabs)
     draw_g(g,"original")

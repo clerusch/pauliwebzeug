@@ -1,0 +1,14 @@
+def fibonacci(n):
+    if n == 0: return 0
+    if n == 1: return 1
+
+    a, b = 0, 1
+    for _ in range(2, n + 1):
+        c = a + b
+        a, b = b, c
+    return b
+
+# Example usage:
+#n = 10  # Change this value to compute a different Fibonacci number
+n = int(input())
+print(f"The {n}th Fibonacci number is: {fibonacci(n)}")
